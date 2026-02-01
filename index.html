@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Love ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="hearts"></div>
+
+<section class="page active">
+  <h1>Hey My Love ❤️</h1>
+  <p>I made this little world… only for you</p>
+  <button onclick="nextPage()">Next 💌</button>
+</section>
+
+<section class="page">
+  <h1>Our Beautiful Moments ✨</h1>
+  <div class="gallery">
+    <img src="img/pic1.jpeg">
+    <img src="img/pic2.jpeg">
+    <img src="img/pic3.jpeg">
+  </div>
+  <button onclick="nextPage()">Next 💖</button>
+</section>
+
+<section class="page">
+  <h1>A Letter For You 💕</h1>
+  <p class="letter">
+    Tum meri life ka sabse important part ho.,<br>
+    Tumhare saath sab easy lagta hai, safe lagta hai.<br>
+    Chahe life mein kuch bhi ho, mujhe bas tumhara saath chahiye.<br>
+    You are not just my partner… you are my life, my everything ❤️
+  </p>
+  <button onclick="nextPage()">Next 💞</button>
+</section>
+
+<section class="page">
+  <h1>Will You Be My Valentine? 💍</h1>
+  <button class="yes" onclick="celebrate()">YES 😍</button>
+  <button class="no">NO 😢</button>
+
+  <canvas id="fireworks"></canvas>
+
+  <h2 id="finalText">I Love You Forever ❤️✨</h2>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
